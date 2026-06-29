@@ -394,18 +394,23 @@ FEATURES
  }
 
  @media (max-width: 768px) {
+  .nav__links {
+    display: none;
+  }
+
+  .btn__menu {
+    display: block;
+  }
+
   .book {
     width: 50%;
   }
 }
 
-.btn__menu {
-    display: block;
-  }
 
 @media (max-width: 550px) {
-  .nav__links {
-    display: none;
+  .book {
+    width: 100%;
   }
 
   .highlight__wrapper {
