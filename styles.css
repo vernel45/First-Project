@@ -106,7 +106,7 @@ display: none;
     display: none;
     }
 
-    .menu-open .menu__backdrop {
+    .menu--open .menu__backdrop {
     display: flex;
     }
 
@@ -393,12 +393,27 @@ FEATURES
  padding: 8 8px;
  }
 
- @media (max-width:550px) {
-  .nav__links {
-    display: none;
-  }  
+ @media (max-width: 768px) {
+  .book {
+    width: 50%;
+  }
 }
 
-.btn__menu {
+@media (max-width: 550px) {
+  .nav__links {
+    display: none;
+  }
+
+  .btn__menu {
     display: block;
+  }
+
+  .highlight__wrapper {
+    flex-direction: column;
+  }
+
+  .highlight {
+    width: 100%;
+    margin-bottom: 24px;
+  }
 }
