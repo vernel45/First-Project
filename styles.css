@@ -140,8 +140,9 @@ LANDING
 
 #landing {
     position: relative;
-    background-color:rgba(115, 66, 214, 0.1);
-}
+    background-color:rgba (115,66, 214, 0.1);
+    overflow: hidden;
+    }
 
 .wave {
  position: absolute;
