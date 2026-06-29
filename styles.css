@@ -92,7 +92,7 @@ color: #7342d6;
 display: none;
 }
 
-.menu__backdrop {
+.menu-backdrop {
     position: absolute;
     background-color: #242424;
     top: 0;

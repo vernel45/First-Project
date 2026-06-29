@@ -1,16 +1,19 @@
+const body = document.body;
+const menuButton = document.querySelector(".btn__menu");
+const closeButton = document.querySelector(".btn__menu--close");
+const menuLinks = document.querySelectorAll(".menu__link");
+
 function openMenu() {
-	document.body.classList += "menu--open"
+  body.classList.add("menu--open");
 }
 
 function closeMenu() {
-	body.classList.remove('menu--open');
+  body.classList.remove("menu--open");
 }
 
-if (menuButton && closeButton) {
-	menuButton.addEventListener('click', openMenu);
-	closeButton.addEventListener('click', closeMenu);
-}
+menuButton.addEventListener("click", openMenu);
+closeButton.addEventListener("click", closeMenu);
 
 menuLinks.forEach((link) => {
-	link.addEventListener('click', closeMenu);
+  link.addEventListener("click", closeMenu);
 });
