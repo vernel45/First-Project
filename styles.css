@@ -11,8 +11,7 @@
     }
 
     .body {
-        max-width: 100vh;
-        overflow-x: hidden;
+    overflow-x: hidden;
     }
         
     nav {
@@ -90,6 +89,7 @@ font-size: 40px;
 text-align: center;
 border: none;
 color: #7342d6;
+display: none;
 }
 
 .menu__backdrop {
@@ -103,6 +103,11 @@ color: #7342d6;
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
+    }
+
+    .menu-open .menu__backdrop {
+    display: flex;
     }
 
     .menu__links {
@@ -386,5 +391,14 @@ FEATURES
 
  .footer__link {
  padding: 8 8px;
- 
+ }
+
+ @media (max-width:550px) {
+  .nav__links {
+    display: none;
+  }  
+}
+
+.btn__menu {
+    display: block;
 }
