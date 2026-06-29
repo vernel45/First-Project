@@ -92,7 +92,7 @@ color: #7342d6;
 display: none;
 }
 
-.menu-backdrop {
+.menu__backdrop {
     position: absolute;
     background-color: #242424;
     top: 0;
@@ -406,10 +406,6 @@ FEATURES
 @media (max-width: 550px) {
   .nav__links {
     display: none;
-  }
-
-  .btn__menu {
-    display: block;
   }
 
   .highlight__wrapper {
