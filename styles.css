@@ -139,7 +139,15 @@ LANDING
 */
 
 #landing {
+    position: relative;
     background-color:rgba(115, 66, 214, 0.1);
+}
+
+.wave {
+ position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 header {
