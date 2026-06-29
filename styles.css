@@ -399,6 +399,10 @@ FEATURES
   }
 }
 
+.btn__menu {
+    display: block;
+  }
+
 @media (max-width: 550px) {
   .nav__links {
     display: none;
